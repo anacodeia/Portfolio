@@ -19,6 +19,9 @@ h1 {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+    align-items: center; /* Alinha as caixas no eixo vertical */
+    margin: 0 auto; /* Garante que o conteúdo ficará centralizado */
+    max-width: 1200px; /* Limita a largura total do container */
 }
 
 /* Caixinhas */
@@ -31,6 +34,7 @@ h1 {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     text-align: left;
     transition: transform 0.3s ease;
+    margin: 0 auto; /* Garantir que cada box estará centralizada */
 }
 
 .box:hover {
@@ -89,4 +93,3 @@ h1 {
         font-size: 0.9em;
     }
 }
-

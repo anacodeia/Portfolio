@@ -18,10 +18,10 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: center;
-    align-items: center; /* Alinha as caixas no eixo vertical */
-    margin: 0 auto; /* Garante que o conteúdo ficará centralizado */
-    max-width: 1200px; /* Limita a largura total do container */
+    justify-content: center; /* Alinha as caixas centralizadas horizontalmente */
+    align-items: flex-start; /* Ajuste para garantir o alinhamento correto das caixas */
+    margin: 0 auto;
+    max-width: 1200px; /* Limita a largura do container */
 }
 
 /* Caixinhas */
@@ -34,7 +34,6 @@ h1 {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     text-align: left;
     transition: transform 0.3s ease;
-    margin: 0 auto; /* Garantir que cada box estará centralizada */
 }
 
 .box:hover {

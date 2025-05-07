@@ -1,4 +1,4 @@
-java:                                                                                                                                                                                                                         // Scroll suave para as âncoras de navegação
+                                                                                                                                                                                                 // Scroll suave para as âncoras de navegação
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
         e.preventDefault();
